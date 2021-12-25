@@ -1,0 +1,25 @@
+{
+  "scripts": {
+    "lint": "npm run solhint && npm run mdlint",
+    "solhint": "solhint src/**/*.sol",
+    "mdlint": "markdownlint .",
+    "breakapartLP": "node scripts/BreakApartLP.js",
+    "sellHolding": "node scripts/SellHolding.js",
+    "sweepDesired": "node scripts/SweepDesired.js",
+    "withdrawTokens": "node scripts/WithdrawTokens.js",
+    "transferTokens": "node scripts/TransferTokens.js"
+  },
+  "devDependencies": {
+    "ethers": "5.5.2",
+    "markdownlint": "0.24.0",
+    "solhint": "3.3.6"
+  },
+  "dependencies": {
+    "@vechain/connex": "^2.0.9",
+    "axios": "^0.25.0",
+    "dotenv": "^14.2.0",
+    "markdownlint-cli": "0.30.0",
+    "readline-sync": "^1.4.10"
+  },
+  "type": "module"
+}

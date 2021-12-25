@@ -1,0 +1,8 @@
+import 'dotenv/config';
+
+export const PRIVATE_KEY = process.env.PRIVATE_KEY;
+export const FEE_COLLECTOR_ADDRESS = "0x17D252083c79Db33866295078ED955B04e1C61c8";
+export const DEPLOYER_ADDRESS = "0x133720c677ac960Fd6692457233D2CeEA3754529";
+export const WVET_ADDRESS = "0xD8CCDD85abDbF68DFEc95f06c973e87B1b5A9997";
+export const VEX_ADDRESS = "0x0BD802635eb9cEB3fCBe60470D2857B86841aab6";
+export const MAINNET_NODE_URL = "https://mainnet-node.vexchange.io";

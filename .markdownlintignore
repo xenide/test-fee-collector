@@ -1,0 +1,7 @@
+# .gitignore
+/out
+/ref
+/node_modules
+
+# unique
+/lib
